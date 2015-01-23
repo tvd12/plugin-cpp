@@ -58,4 +58,6 @@ Tích hợp Google Analytics plugin trên eclipse cho android
 
 	GoogleAnalyticsHelper.sApplication = (MyApplication)getApplication();
 
-6. Tiếp tục từ bước 6 trong phần ios 
+6. Trong AndroidManifest.xml, tìm đến thẻ application, thêm thuộc tính 				android:name="my.aplication" (Ví dụ: com.test.MyApplication)
+
+7. Tiếp tục từ bước 6 trong phần ios 
