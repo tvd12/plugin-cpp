@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF9C927D1AB87293006BC685 /* InappHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF9C927B1AB87293006BC685 /* InappHelper.cpp */; };
+		CF9C927E1AB87293006BC685 /* PurchaseHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF9C927C1AB87293006BC685 /* PurchaseHelper.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF77DA6D1A75492C00BEED3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF77DA6F1A75492C00BEED3B /* libinapp-purchase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libinapp-purchase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF77DA891A754A2200BEED3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = plist/Info.plist; sourceTree = SOURCE_ROOT; };
+		CF77DA8B1A754A3000BEED3B /* inapp-purchse.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "inapp-purchse.pch"; sourceTree = SOURCE_ROOT; };
+		CF77DA8F1A754A9900BEED3B /* InappHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InappHelper.h; sourceTree = "<group>"; };
+		CF9C927B1AB87293006BC685 /* InappHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InappHelper.cpp; sourceTree = "<group>"; };
+		CF9C927C1AB87293006BC685 /* PurchaseHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PurchaseHelper.cpp; sourceTree = "<group>"; };
+		CF9C927F1AB8729A006BC685 /* PurchaseHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurchaseHelper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF77DA6C1A75492C00BEED3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF77DA661A75492C00BEED3B = {
+			isa = PBXGroup;
+			children = (
+				CF77DA901A754AD700BEED3B /* Classes */,
+				CF77DA8E1A754A9900BEED3B /* include */,
+				CF77DA7F1A75492C00BEED3B /* Supporting Files */,
+				CF77DA701A75492C00BEED3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF77DA701A75492C00BEED3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF77DA6F1A75492C00BEED3B /* libinapp-purchase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF77DA7F1A75492C00BEED3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF77DA8B1A754A3000BEED3B /* inapp-purchse.pch */,
+				CF77DA891A754A2200BEED3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = "inapp-purchaseTests";
+			sourceTree = "<group>";
+		};
+		CF77DA8E1A754A9900BEED3B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CF77DA8F1A754A9900BEED3B /* InappHelper.h */,
+			);
+			name = include;
+			path = ../include;
+			sourceTree = "<group>";
+		};
+		CF77DA901A754AD700BEED3B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF9C927F1AB8729A006BC685 /* PurchaseHelper.h */,
+				CF9C927B1AB87293006BC685 /* InappHelper.cpp */,
+				CF9C927C1AB87293006BC685 /* PurchaseHelper.cpp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF77DA6E1A75492C00BEED3B /* inapp-purchase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF77DA831A75492C00BEED3B /* Build configuration list for PBXNativeTarget "inapp-purchase" */;
+			buildPhases = (
+				CF77DA6B1A75492C00BEED3B /* Sources */,
+				CF77DA6C1A75492C00BEED3B /* Frameworks */,
+				CF77DA6D1A75492C00BEED3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "inapp-purchase";
+			productName = "inapp-purchase";
+			productReference = CF77DA6F1A75492C00BEED3B /* libinapp-purchase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF77DA671A75492C00BEED3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dung Ta Van";
+				TargetAttributes = {
+					CF77DA6E1A75492C00BEED3B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = CF77DA6A1A75492C00BEED3B /* Build configuration list for PBXProject "inapp-purchase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF77DA661A75492C00BEED3B;
+			productRefGroup = CF77DA701A75492C00BEED3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF77DA6E1A75492C00BEED3B /* inapp-purchase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF77DA6B1A75492C00BEED3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9C927E1AB87293006BC685 /* PurchaseHelper.cpp in Sources */,
+				CF9C927D1AB87293006BC685 /* InappHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF77DA811A75492C00BEED3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF77DA821A75492C00BEED3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF77DA841A75492C00BEED3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		CF77DA851A75492C00BEED3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF77DA6A1A75492C00BEED3B /* Build configuration list for PBXProject "inapp-purchase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF77DA811A75492C00BEED3B /* Debug */,
+				CF77DA821A75492C00BEED3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF77DA831A75492C00BEED3B /* Build configuration list for PBXNativeTarget "inapp-purchase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF77DA841A75492C00BEED3B /* Debug */,
+				CF77DA851A75492C00BEED3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF77DA671A75492C00BEED3B /* Project object */;
+}

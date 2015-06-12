@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3A21971A70E8740024A7C5 /* PlayServicesUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF3A218F1A70E8170024A7C5 /* PlayServicesUtil.cpp */; };
+		CF3A21981A70E8740024A7C5 /* StateManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF3A21911A70E8170024A7C5 /* StateManager.cpp */; };
+		CF3A219A1A70E8990024A7C5 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3A218D1A70E8170024A7C5 /* logging.h */; };
+		CF3A219B1A70E8990024A7C5 /* PlayServicesHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3A218E1A70E8170024A7C5 /* PlayServicesHeaders.h */; };
+		CF3A219C1A70E8990024A7C5 /* PlayServicesUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3A21901A70E8170024A7C5 /* PlayServicesUtil.h */; };
+		CF3A219D1A70E8990024A7C5 /* StateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3A21921A70E8170024A7C5 /* StateManager.h */; };
+		CFF67D3D1AB88021009E972E /* gpg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF67D3C1AB88021009E972E /* gpg.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF9BB8E61A5EB16F00589D82 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF3A218D1A70E8170024A7C5 /* logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
+		CF3A218E1A70E8170024A7C5 /* PlayServicesHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayServicesHeaders.h; sourceTree = "<group>"; };
+		CF3A218F1A70E8170024A7C5 /* PlayServicesUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlayServicesUtil.cpp; sourceTree = "<group>"; };
+		CF3A21901A70E8170024A7C5 /* PlayServicesUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayServicesUtil.h; sourceTree = "<group>"; };
+		CF3A21911A70E8170024A7C5 /* StateManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StateManager.cpp; sourceTree = "<group>"; };
+		CF3A21921A70E8170024A7C5 /* StateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateManager.h; sourceTree = "<group>"; };
+		CF3A21931A70E8300024A7C5 /* google_play_services-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "google_play_services-Prefix.pch"; sourceTree = "<group>"; };
+		CF9BB8E81A5EB16F00589D82 /* libgoogle-play-services.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libgoogle-play-services.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9BB9031A5EB2D200589D82 /* GooglePlayGames.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlayGames.bundle; path = Frameworks/GooglePlayGames.bundle; sourceTree = "<group>"; };
+		CF9BB9051A5EB2D200589D82 /* licenses.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = licenses.txt; path = Frameworks/licenses.txt; sourceTree = "<group>"; };
+		CF9BB90D1A5EB4A600589D82 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF67D3C1AB88021009E972E /* gpg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gpg.framework; path = Frameworks/gpg.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF9BB8E51A5EB16F00589D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF67D3D1AB88021009E972E /* gpg.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3A218C1A70E8170024A7C5 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CF3A218D1A70E8170024A7C5 /* logging.h */,
+				CF3A218E1A70E8170024A7C5 /* PlayServicesHeaders.h */,
+				CF3A218F1A70E8170024A7C5 /* PlayServicesUtil.cpp */,
+				CF3A21901A70E8170024A7C5 /* PlayServicesUtil.h */,
+				CF3A21911A70E8170024A7C5 /* StateManager.cpp */,
+				CF3A21921A70E8170024A7C5 /* StateManager.h */,
+			);
+			name = include;
+			path = ../include;
+			sourceTree = "<group>";
+		};
+		CF9BB8DF1A5EB16F00589D82 = {
+			isa = PBXGroup;
+			children = (
+				CF3A218C1A70E8170024A7C5 /* include */,
+				CF9BB9071A5EB3BD00589D82 /* Supporting Files */,
+				CF9BB8E91A5EB16F00589D82 /* Products */,
+				CF9BB9021A5EB1A500589D82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF9BB8E91A5EB16F00589D82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF9BB8E81A5EB16F00589D82 /* libgoogle-play-services.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF9BB9021A5EB1A500589D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFF67D3C1AB88021009E972E /* gpg.framework */,
+				CF9BB9031A5EB2D200589D82 /* GooglePlayGames.bundle */,
+				CF9BB9051A5EB2D200589D82 /* licenses.txt */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF9BB9071A5EB3BD00589D82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3A21931A70E8300024A7C5 /* google_play_services-Prefix.pch */,
+				CF9BB90C1A5EB4A600589D82 /* plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF9BB90C1A5EB4A600589D82 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				CF9BB90D1A5EB4A600589D82 /* Info.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF3A21991A70E88F0024A7C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3A219A1A70E8990024A7C5 /* logging.h in Headers */,
+				CF3A219B1A70E8990024A7C5 /* PlayServicesHeaders.h in Headers */,
+				CF3A219C1A70E8990024A7C5 /* PlayServicesUtil.h in Headers */,
+				CF3A219D1A70E8990024A7C5 /* StateManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CF9BB8E71A5EB16F00589D82 /* google-play-services */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9BB8FC1A5EB17000589D82 /* Build configuration list for PBXNativeTarget "google-play-services" */;
+			buildPhases = (
+				CF9BB8E41A5EB16F00589D82 /* Sources */,
+				CF9BB8E51A5EB16F00589D82 /* Frameworks */,
+				CF9BB8E61A5EB16F00589D82 /* CopyFiles */,
+				CF3A21991A70E88F0024A7C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "google-play-services";
+			productName = "google-play-services";
+			productReference = CF9BB8E81A5EB16F00589D82 /* libgoogle-play-services.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF9BB8E01A5EB16F00589D82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dung Ta Van";
+				TargetAttributes = {
+					CF9BB8E71A5EB16F00589D82 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = CF9BB8E31A5EB16F00589D82 /* Build configuration list for PBXProject "google-play-services" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF9BB8DF1A5EB16F00589D82;
+			productRefGroup = CF9BB8E91A5EB16F00589D82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF9BB8E71A5EB16F00589D82 /* google-play-services */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF9BB8E41A5EB16F00589D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3A21971A70E8740024A7C5 /* PlayServicesUtil.cpp in Sources */,
+				CF3A21981A70E8740024A7C5 /* StateManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF9BB8FA1A5EB17000589D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF9BB8FB1A5EB17000589D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF9BB8FD1A5EB17000589D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		CF9BB8FE1A5EB17000589D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF9BB8E31A5EB16F00589D82 /* Build configuration list for PBXProject "google-play-services" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9BB8FA1A5EB17000589D82 /* Debug */,
+				CF9BB8FB1A5EB17000589D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9BB8FC1A5EB17000589D82 /* Build configuration list for PBXNativeTarget "google-play-services" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9BB8FD1A5EB17000589D82 /* Debug */,
+				CF9BB8FE1A5EB17000589D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF9BB8E01A5EB16F00589D82 /* Project object */;
+}
